@@ -1,0 +1,131 @@
+body {
+	background: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/background.png") repeat;
+}
+
+#banner {
+	width: 100%;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#title {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 24pt;
+	font-style: bold;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#main {
+	width: 80%;
+	margin: auto;
+	border:4px solid gray;
+}
+
+#introduction {
+	float: right;
+	height: 100%;
+	width: 31%;
+	background: #A2B964;
+}
+
+#introduction img{
+	width: 100%;
+}
+
+#introduction dt{
+	font-family: Arial, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+#introduction dd{
+	font-family: Arial, sans-serif;
+	font-size: 8px;
+	margin-left: 5em;
+}
+
+#w3c {
+	position:fixed;
+	right: 0%;
+	bottom: 0%;
+	width: 8%;
+}
+
+#rotten {
+	background: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rottenbackground.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+#rotten img {
+	vertical-align: bottom;
+}
+
+#small{
+	font-size: 8pt;
+	color: white;
+	font-weight: lighter;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#big{
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+.comment {
+	float: left;
+	width: 33%;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+.sentence {
+	background-color: #E1D697;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	border:2px solid gray;
+	padding: 2%;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+
+.person {
+	overflow: hidden;
+	margin-bottom: 10%;
+	vertical-align: middle;
+	font-size: 6pt;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+.sentence img {
+	width: 12%;
+	float: left;
+	margin-right: 2%;
+}
+
+.person img {
+	float: left;
+	margin-right: 1%;
+}
+
+#bottom {
+	font-size: 8pt;
+	clear: both;
+	background-color: #A2B964;
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
